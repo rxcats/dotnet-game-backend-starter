@@ -7,7 +7,7 @@
 - .NET SDK 6.0
 - MySQL 5.7.x
 
-## Third Library
+## Third Party Library
 - MessagePack : 클라이언트 서버간 통신시 직열화를 위해 사용
 - ZLogger : Zero Allocation Text/Structured Logger
 - FirebaseAdmin : 인증 연동을 위해 Firebase 사용
