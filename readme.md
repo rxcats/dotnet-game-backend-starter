@@ -1,7 +1,7 @@
 # .NET 백엔드 프로젝트
 
 ## 개요
-- ASP.NET Core WebApplication 을 이용하여 백엔드 게임서버 API 구축을 하기 위함
+- ASP.NET Core WebApplication 을 이용하여 백엔드 게임서버 API 구축을 빠르게 하기 위함
 
 ## 사용된 기술
 - .NET SDK 6.0
@@ -98,7 +98,7 @@ public class JsonLoggingMiddleware
 #### Provider
 ```c#
 // 로그인시 Request 의 AccessToken 을 체크하기 위한 용도
-// 구현체 : RxCats.GameApi.Provider.Impl.irebaseProvider.cs
+// 구현체 : RxCats.GameApi.Provider.Impl.FirebaseProvider.cs
 namespace RxCats.GameApi.Provider;
 
 public interface IAccessTokenValidateProvider
